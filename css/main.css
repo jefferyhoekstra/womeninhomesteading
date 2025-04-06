@@ -17,7 +17,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: red;
+    background-color: rgb(20, 20, 26, 1);
 
     scroll-behavior: smooth;
 }
