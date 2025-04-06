@@ -1,0 +1,13 @@
+/* navbar links hover event */
+nav .navbar-container .navbar-link-join:hover
+{
+    transform: scale(1.1);
+}
+
+nav .navbar-container .navbar-links .navbar-link-shop:hover,
+    .navbar-link-about:hover,
+    .navbar-link-contact:hover
+{
+    transform: translateY(0.2em);
+
+}

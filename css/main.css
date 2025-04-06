@@ -1,0 +1,30 @@
+/* ------- imports ------- */
+
+/* base */
+@import url('base/_typography.css');
+
+/* layout */
+@import url('components/_navbar.css');
+
+/* sections */
+@import url('layout/section-join.css');
+@import url('layout/section-about.css');
+
+/* events */
+@import url('events/_navbar.css');
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(20, 20, 26, 1);
+
+    scroll-behavior: smooth;
+}
+
+main
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}

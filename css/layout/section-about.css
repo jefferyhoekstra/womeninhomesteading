@@ -1,0 +1,30 @@
+/* define parameters */
+main .section-about
+{
+    margin: 0 auto;
+    background-color: #f3f0e7;
+
+  
+
+
+}
+
+main .section-about .section-about-container
+{
+    margin: 0 2em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 5em;
+}
+
+main .section-about .section-about-container img
+{
+    margin: 0 auto;
+    width: clamp(200px, 95%, 600px);
+}
+
+main .section-about
+.section-about-container .section-about-left, .section-about-right
+{
+
+}
