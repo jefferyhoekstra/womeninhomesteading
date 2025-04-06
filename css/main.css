@@ -1,17 +1,17 @@
 /* ------- imports ------- */
 
 /* base */
-@import url('base/_typography.css');
+@import url('./base/_typography.css');
 
 /* layout */
-@import url('components/_navbar.css');
+@import url('./components/_navbar.css');
 
 /* sections */
-@import url('layout/section-join.css');
-@import url('layout/section-about.css');
+@import url('./layout/section-join.css');
+@import url('./layout/section-about.css');
 
 /* events */
-@import url('events/_navbar.css');
+@import url('./events/_navbar.css');
 
 
 html, body {
